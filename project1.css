@@ -1,0 +1,695 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+   
+}
+.logo img{
+    width: 50px;
+    height: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+
+}
+.tech{
+    margin-left: 15px;
+    padding-top: 0;
+}
+
+.sec1{
+    position: relative;
+    background-image: url('../images/guys.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   color: white;
+   /* padding: 30px; */
+
+}
+
+ .overlay{
+    background: rgba(0, 0, 0, .9);
+    padding-left: 20px;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: larger;
+   
+} 
+
+
+   
+
+/*.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 1;
+    place-content: center;
+  
+    
+}*/
+
+
+.enrol span{
+ margin-left: 10px;
+ font-weight: bold;
+}
+.enrol h3{
+    margin-left: 15px;
+}
+
+
+
+
+
+form{
+    background-color: white;
+    width: 95%;
+    font-size: larger;
+    padding :15px 10px; 
+    margin-right:10px;
+    display: grid;
+    color: black;
+}
+
+form p{
+    margin-left: 25px;
+}
+
+form input{
+   width: 80%;
+    margin: 10px 15px;
+    height: 50px;
+}
+
+form input:last-child{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+    
+
+/*alumini section*/
+
+
+.alumini img{
+    width: 100px;
+    height: 130px;
+    border-radius: 100%;
+
+}
+.alumini1{
+    text-align: center;
+}
+
+.alumini2{
+    text-align: center;
+}
+
+.alumini3{
+    text-align: center;
+
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.bootcamp img{
+    width: 100px;
+    height: 130px;
+    border-radius: 100%;
+    
+
+}
+
+.camp{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.skills{
+    text-align: center;
+    padding: 20px 10px;
+
+}
+.expert{
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+.details{
+    text-align: center;
+    padding: 20px 10px;
+   display: grid
+}
+
+.details button{
+    margin-bottom: 15px;
+    border: none;
+   
+    height: 45px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.details img{
+   
+    height: 50vh;
+    
+       
+}
+
+
+
+.detailimg > img{
+    
+    width: 80%;
+}
+
+
+.experience  .marg{
+    text-align: center;
+    margin: 20px 150px;
+    line-height: 30px;
+}
+.experience img{
+    height: 50vh;
+}
+
+.experienceimg{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.experienceimg > img{
+    width: 100%;
+    
+}
+
+.breakdown{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+}
+
+.breakdown input{
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.facility{
+    padding: 5px 5px;
+    
+}
+.state{
+    margin: 8px 8px;
+    border-radius: 5%;
+    padding-left: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.state #top{
+    margin-left:20px ;
+    font-size: 22px;
+}
+.state #world{
+    margin-left:20px ;
+}
+.office{
+     background-color: lightgrey; 
+    width: 100vw;
+    
+    height: 100%;
+   
+}
+.office img{
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.whitebackground{
+    background-color: white;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 100%;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10%;
+    padding-left: 30px;
+}
+
+
+.facility{
+    padding: 5px 5px;
+    margin-top: 10px;
+    
+}
+
+.academyarea{
+    padding: 5px 5px;
+    font-size: larger;
+    
+}
+
+.academyarea img{
+    width: 100%;
+    height: 50vh;
+}
+.academyarea p{
+    margin-left: 10px;
+}
+
+
+.academyarea button{
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.interest{
+    padding: 40px 0;
+    background-color: lightgrey;
+    height: 250px;
+    padding: 50px 0;
+
+
+}
+
+.blue{
+    height: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 35px 65px;
+}
+.blue button{
+    border: none;
+    height: 50px;
+    color: blue;
+    border-radius: 3%;
+    cursor: pointer;
+
+}
+
+.questions{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: larger;
+
+
+}
+.love{
+    padding: 30px 150px;
+    text-align: center;
+    border-radius: 30% ;
+    font-size: larger;
+
+}
+
+.question p{
+    font-size: 40px;
+}
+
+.questions button{
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.blueground{
+    background-color: blue;
+    padding: 25px 20px 55px;
+}
+.started{
+    background-color: white;
+    padding: 20px;
+    font-size: larger;
+}
+
+.redground{
+    background-color: red;
+    padding: 40px;
+    color: white;
+    margin-top: 30px;
+    font-size: larger;
+}
+.blueground button{
+    border: none;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border-radius: 3%;
+    background-color: blue;
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+
+.twiter{
+    background: black;
+    padding: 40px;
+   
+}
+ .icons{
+ display: flex;
+ padding-bottom:10px ;
+justify-content: center;
+ }
+ .icons img{
+     margin-left: 10px;
+ }
+.twiter img{
+    width: 35px;
+    height: 30px;
+}
+
+.studiologo{
+    color: white;
+    font-size: larger;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.studiologo img{
+    margin-top: 8px;
+    margin-right: 10px;
+    
+}
+.formstudio{
+    background-color: black;
+   justify-content: center;
+}
+form label{
+    margin-left: 10px;
+    margin-top: 15px;
+  
+}
+.formstudio input{
+    width: 100%;
+}
+
+           
+
+
+    
+@media (min-width:730px) {
+    .overlay{
+        display: flex;
+    }
+    .overlay .rightoverlay{
+        display: block;
+        margin: 20px;
+
+    }
+    form{
+        width: 40%;
+        margin: 40px;
+    }
+    form #name{
+        width: 100px;
+       
+      
+    }
+    .inlinedisplay{
+        display: flex;
+    }
+    .bootcamp{
+        font-size: larger;
+    }
+    .details{
+        text-align: left;
+        padding: 15px 50px;
+        font-size: larger;
+        margin-bottom: 10px;
+
+    }
+    .details h3{
+        text-align: center;
+    }
+    .details button{
+        width: 25%;
+        margin-left: 0;
+        border-radius: 5%;
+    }
+    .details img{
+        width: 100%;
+        height: 90%;
+       
+    }
+
+    .experience{
+        padding-top: 0;
+        font-size: larger;
+    }
+    .breakdownflex{
+        display: flex;
+    }
+    .rightfund{
+        margin-left: 20px;
+    }
+    .breakdown input{
+        width: 25%;
+        margin-left: 0;
+        border-radius: 5%;
+    }
+    .state img{
+        width: 100%;
+    }
+    .state #top{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+    #career{
+        text-align: center;
+        margin-top: 50px;
+        font-size: larger;
+    }
+    .support img{
+        height: 80vh;
+    }
+    #exellent{
+        font-size: larger;
+    }
+   .academyarea button{
+  
+        width: 25%;
+        margin-left: 0;
+        border-radius: 5%;
+    
+   }
+   .allquery{
+       display: flex;
+       text-align: left;
+   }
+
+   .rightquery{
+       margin-left: 30px;
+       
+   }
+   .questions button{
+    background-color: blue;
+    border: none;
+    color: white;
+    width: 30%;
+    height: 60px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.blueground{
+    display: flex;
+   
+}
+.started{
+    width: 50%;
+    margin-top: 30px;
+}
+.redground{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    height: 80%;
+}
+.redground button{
+    margin-top: 80px;
+    border-radius: 6%;
+  
+}
+.twiter{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.twiter .studiologo{
+  padding-top: 50px;
+}
+.twiter .icons{
+    padding-top: 50px;
+}
+
+}
+
+@media (min-width:800px) {
+    .alumini12{
+        display: flex;
+        flex-direction: row;
+       
+        width: 100%;
+        padding: 30px 30px;
+        font-size: larger;
+        
+
+       
+    }
+    .alumini13{
+        display: flex;
+        justify-content: center;
+    }
+
+    .alumini1{
+        margin-left: 20px;
+        width: 45%;
+      
+    }
+    .alumini2{
+      margin-left: 20px;
+      width: 45%;
+    }
+    /* .alumini3{
+        margin-right: 60px;
+        width: 100%;
+       
+         
+    } */
+    
+    form{
+        width: 50%;
+        margin: 40px;
+    }
+    .rightoverlay{
+        width: 50%;
+    }
+    .bootcamp{
+        display: flex;
+    }
+
+    .details h3{
+        font-size: larger;
+    }
+ .flexdetails{
+     display: flex;
+    
+ }
+ .leftdetails button{
+   width: 200px;
+ }
+ .detailimg img{
+     height: 50vh;
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+
+ .office{
+      /* position: relative; 
+     height: 60%;
+     position: top; */
+
+     /* display: flex; */
+    display: flex;
+    
+ }
+ /* .office{
+     display: flex;
+     background: lightgrey;
+     height: 80%;
+ } */
+ .officeimage{
+     /* width: 100%; */
+     /* height: 100%; */
+    
+ }
+  .officeimage > img{
+     /* width: 60%;
+     height: 80vh; */
+     /* margin-top: 40px; */
+
+ } 
+ .whitebackground{
+     position: relative;
+     right: 200px;
+     width: 80%;
+     height: 90%;
+     border-radius: 10%;
+     /* margin-left: 50px; */
+     margin-top: 40px;
+     margin-right: 40px;
+     padding: 20px 20px;
+ }
+ .whychoose{
+     display: flex;
+ }
+ .group3 img{
+     width: 90%;
+     height: 80vh;
+ }
+ .chosetech p{
+     width: 70vh;
+
+ }
+ #choose{
+     margin-left: 25em;
+     font-size: larger;
+ }
+ .flexcareer{
+     display: flex;
+ }
+ #introcareer{
+     text-align: center;
+     margin: 10px 300px;
+ }
+ .support{
+     width: 90%;
+    margin-right: 30px;
+ }
+ .support img{
+     height: 50%;
+     margin-top: 28px;
+ }
+ .exellent{
+     width: 100%;
+     
+ }
+ .exellent button{
+     width: 200px;
+ }
+}
